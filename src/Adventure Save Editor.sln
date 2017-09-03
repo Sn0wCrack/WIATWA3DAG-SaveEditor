@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikeCypher", "MikeCypher\MikeCypher.csproj", "{EDA2E4EB-054F-4ACE-B526-11DB4DDBF994}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MikeHelper", "MikeCypher\MikeHelper.csproj", "{EDA2E4EB-054F-4ACE-B526-11DB4DDBF994}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adventure Save Editor", "Adventure Save Editor\Adventure Save Editor.csproj", "{58C10018-A364-4B15-890B-235D037733E0}"
 EndProject

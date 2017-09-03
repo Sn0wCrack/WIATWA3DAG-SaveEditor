@@ -8,7 +8,7 @@ namespace MikeHelper
 {
     public class MikeCypher
     {
-        public static string Crypt(int skip, string str)
+        public static string Cypher(int skip, string str)
         {
             string lhs = "";
             if (!string.IsNullOrEmpty(str) && str.Length > 0)

@@ -42,7 +42,7 @@ namespace Adventure_Save_Editor
             {
                 try
                 {
-                    for (var rhs = MikeCypher.Crypt(-69, sr.ReadLine()); !string.IsNullOrEmpty(rhs); rhs = MikeCypher.Crypt(-69, sr.ReadLine()))
+                    for (var rhs = MikeCypher.Cypher(-69, sr.ReadLine()); !string.IsNullOrEmpty(rhs); rhs = MikeCypher.Cypher(-69, sr.ReadLine()))
                     {
                         string[] data = rhs.Split(' ');
                         if (data.Length >= 2)
@@ -75,7 +75,7 @@ namespace Adventure_Save_Editor
                 {
                     string key = dgvSaveData.Rows[i].Cells[0].Value.ToString();
                     string value = dgvSaveData.Rows[i].Cells[1].Value.ToString();
-                    string line = MikeCypher.Crypt(69, key + " " + value);
+                    string line = MikeCypher.Cypher(69, key + " " + value);
 
                     if (i > 2)
                     {
@@ -101,7 +101,7 @@ namespace Adventure_Save_Editor
                 }
 
                 string validity = "VALID: " + num1.ToString();
-                sr.WriteLine(MikeCypher.Crypt(69, validity));
+                sr.WriteLine(MikeCypher.Cypher(69, validity));
             }
         }
 
